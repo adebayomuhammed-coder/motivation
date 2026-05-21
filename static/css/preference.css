@@ -57,7 +57,8 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
+    column-gap: 16px;
+    row-gap: 18px;
 }
 
 
