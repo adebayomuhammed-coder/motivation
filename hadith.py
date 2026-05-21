@@ -242,9 +242,45 @@ hadith_quotes = [
 
     "The nearest servant to Allah is the one who prostrates often.",
 
-    "Allah accepts repentance from His servant as long as the soul has not reached the throat.",
+    "Allah accepts repentance from His servant as long as the soul has not reached the throat. — Prophet Muhammad (Tirmidhi)"
+    "Actions are judged by intentions. — Prophet Muhammad (Sahih al-Bukhari & Sahih Muslim)",
+    "The strong believer is better and more beloved to Allah than the weak believer. — Prophet Muhammad (Sahih Muslim)",
+    "None of you truly believes until he loves for his brother what he loves for himself. — Prophet Muhammad (Sahih al-Bukhari & Sahih Muslim)",
+    "Allah does not look at your appearance or wealth, but at your hearts and deeds. — Prophet Muhammad (Sahih Muslim)",
+    "The best among you are those who have the best character. — Prophet Muhammad (Sahih al-Bukhari)",
+    "Make things easy and do not make things difficult. — Prophet Muhammad (Sahih al-Bukhari)",
+    "Allah is gentle and loves gentleness in all matters. — Prophet Muhammad (Sahih Muslim)",
+    "Whoever does not show mercy will not be shown mercy. — Prophet Muhammad (Sahih al-Bukhari & Sahih Muslim)",
+    "Smiling in the face of your brother is charity. — Prophet Muhammad (Tirmidhi)",
+    "Charity does not decrease wealth. — Prophet Muhammad (Sahih Muslim)",
+    "The most beloved deeds to Allah are those done consistently, even if small. — Prophet Muhammad (Sahih al-Bukhari & Sahih Muslim)",
+    "Whoever believes in Allah and the Last Day should speak good or remain silent. — Prophet Muhammad (Sahih al-Bukhari)",
+    "Cleanliness is half of faith. — Prophet Muhammad (Sahih Muslim)",
+    "Do not be angry. — Prophet Muhammad (Sahih al-Bukhari)",
+    "Verily with hardship comes ease. — Allah (Qur’an 94:6)",
+    "The best of people are those who are most beneficial to others. — Prophet Muhammad (Daraqutni)",
+    "Seek knowledge from the cradle to the grave. — Prophet Muhammad (Bayhaqi)",
+    "Allah loves those who repent often. — Prophet Muhammad (Tirmidhi)",
+    "Patience is at the first strike of calamity. — Prophet Muhammad (Sahih al-Bukhari)",
+    "Make dua, for nothing is too difficult for Allah. — Prophet Muhammad (Tirmidhi)",
 
+    "The most complete believer in faith is the best in character. — Prophet Muhammad (Tirmidhi)",
+    "A strong person is not the one who overcomes others, but the one who controls himself when angry. — Prophet Muhammad (Sahih al-Bukhari & Sahih Muslim)",
+    "Tie your camel and trust in Allah. — Prophet Muhammad (Tirmidhi)",
+    "Allah is more merciful to His servants than a mother to her child. — Prophet Muhammad (Sahih al-Bukhari & Sahih Muslim)",
+    "The most beloved places to Allah are the mosques. — Prophet Muhammad (Sahih Muslim)",
+    "The best charity is that given in secret. — Prophet Muhammad (Sahih al-Bukhari)",
+    "Help your brother whether he is an oppressor or oppressed. — Prophet Muhammad (Sahih al-Bukhari)",
+    "The upper hand is better than the lower hand (giving is better than receiving). — Prophet Muhammad (Sahih al-Bukhari & Sahih Muslim)",
+    "Indeed Allah is beautiful and loves beauty. — Prophet Muhammad (Sahih Muslim)",
+    "Modesty brings nothing but good. — Prophet Muhammad (Sahih al-Bukhari & Sahih Muslim)",
+    "Do not envy one another. — Prophet Muhammad (Sahih Muslim)",
+    "Exchange gifts and love will increase between you. — Prophet Muhammad (Al-Adab Al-Mufrad)",
+    "The believer is not the one who eats his fill while his neighbor is hungry. — Prophet Muhammad (Bayhaqi)",
+    "Keep your tongue moist with the remembrance of Allah. — Prophet Muhammad (Tirmidhi)",
+    "Fear Allah wherever you are. — Prophet Muhammad (Tirmidhi)",
+    "If you ask, ask Allah; if you seek help, seek help from Allah. — Prophet Muhammad (Tirmidhi)",
+    "Part of the perfection of Islam is leaving what does not concern you. — Prophet Muhammad (Tirmidhi)",
+    "There should be neither harming nor reciprocating harm. — Prophet Muhammad (Ibn Majah)",
+    "The best jihad is speaking a word of truth to a tyrant ruler. — Prophet Muhammad (Tirmidhi)"
 ]
-
-
-

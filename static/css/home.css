@@ -95,7 +95,25 @@ p{
     background: #3a86ff;
     color: white;
 }
+/* support button */
+.support-btn{
+    min-width: 180px;
+    height: 50px;
+    font-size: 18px;
+    background:  #fbbf24;
+    color: #111827;
+}
 
+.support-btn{
+    min-width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background: #fbbf24;
+    color: #111827;
+}
+.support-btn:hover{
+    background: #f59e0b;
+}
 /* hover */
 button:hover{
     background: #334155;
@@ -121,7 +139,7 @@ button:hover{
     }
 
     .big-btn,
-    .small-btn{
+    .small-btn , .support-btn{
         width: 90%;
         max-width: 350px;
         height: 55px;

@@ -53,6 +53,9 @@ def save ():
     return redirect ("/")
     
 
+@app.route("/support")
+def support():
+    return redirect("https://paystack.shop/pay/fuh30rtu0v")
 
 
 if __name__ == "__main__" :
