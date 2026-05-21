@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/style.css')}}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUOTE</title>
+</head>
+
+<body>
+
+<div class="app">
+
+    <h1>Here's your motivation ✨</h1>
+    <p class="subtitle">Take it. Feel it. Use it.</p>
+
+    <div class="quote-card">
+        <div class="quote-icon">❝</div>
+        <h2 id="quote">
+            {{motivation}}
+        </h2>
+    </div>
+
+    <div class="buttons">
+        <a href="/quote"><button>New One</button></a>
+        <button id="copy-btn">Copy</button>
+        <a href="/"><button>Back</button></a>
+       
+    </div>
+
+    <p class="footer">
+        Need help? You are not alone. Keep going. 💜
+    </p>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>

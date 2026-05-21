@@ -1,0 +1,61 @@
+
+body{
+    background-image: url( ../image/quotebackground.jpeg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.motivation{
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1{
+    font-size: 60px;
+      font-family: Arial, sans-serif;
+}
+
+p{
+    font-size: 20px;
+      font-family: Arial, sans-serif;
+}  
+
+
+.index-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+.big-btn{
+    width: 300px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+    background: #7b2ff7;
+    color: aliceblue;
+}
+
+.small-btn{
+    width: 150px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-left: 30px;
+    border: none;
+    background: #3a86ff;
+}
+
+button:hover{
+    background: #334155;
+}

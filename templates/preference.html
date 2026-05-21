@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static' , filename = 'css/preference.css')}}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Customize Your Exprience </h1>
+      <p class="Category">Choose what kind of motivation you want. </p>
+      <P class="Category-text"> Category</P>
+      
+    <div class="prefrence">
+
+<div class="btn">
+    <form action="/save_preference" method="post">
+
+        <button name="Category" type="radio" value="hadith">HADITH</button>
+        <button name="Category" type="radio" value="islamic">ISLAMIC</button>
+        <button name="Category" type="radio" value="anime">ANIME</button>
+        <button name="Category" type="radio" value="athletes">ATHLETES</button>
+        <button name="Category"  type="radio" value="quran">QURAN</button>
+        <button name="Category" type="radio" value="mindset">MINDSET</button>
+      
+</div>
+</form>
+    </div> 
+
+
+</body>
+</html>
