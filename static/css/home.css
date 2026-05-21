@@ -20,7 +20,7 @@ body{
     position: relative;
 }
 
-/* dark overlay for better text visibility */
+/* dark overlay */
 body::before{
     content: "";
     position: absolute;
@@ -28,6 +28,7 @@ body::before{
     background: rgba(0,0,0,0.45);
 }
 
+/* content wrapper */
 .motivation{
     text-align: center;
     z-index: 1;
@@ -59,11 +60,10 @@ p{
     gap: 20px;
 }
 
-
-/* main button */
+/* big button */
 .big-btn{
     width: 300px;
-    height: 50px;
+    height: 55px;
     font-size: 22px;
     border-radius: 12px;
     border: none;
@@ -73,11 +73,10 @@ p{
     transition: 0.3s;
 }
 
-
-/* secondary button */
+/* small button */
 .small-btn{
     width: 180px;
-    height: 45px;
+    height: 50px;
     font-size: 20px;
     border-radius: 12px;
     border: none;
@@ -87,19 +86,19 @@ p{
     transition: 0.3s;
 }
 
-
+/* hover */
 button:hover{
     background: #334155;
     transform: scale(1.05);
 }
 
 
-
 /* MOBILE RESPONSIVE */
 @media (max-width: 600px){
 
     h1{
-        font-size: 40px;
+        font-size: 42px;
+        line-height: 1.2;
     }
 
     p{
@@ -109,17 +108,22 @@ button:hover{
     .index-btn{
         margin-top: 50px;
         width: 100%;
+        gap: 18px;
     }
 
+    /* BIG BUTTON (mobile) */
     .big-btn{
-        width: 100%;
-        max-width: 280px;
-        font-size: 18px;
+        width: 90%;
+        max-width: 420px;
+        height: 60px;
+        font-size: 22px;
     }
 
+    /* SMALL BUTTON (mobile) */
     .small-btn{
-        width: 100%;
-        max-width: 200px;
-        font-size: 18px;
+        width: 75%;
+        max-width: 320px;
+        height: 55px;
+        font-size: 20px;
     }
 }

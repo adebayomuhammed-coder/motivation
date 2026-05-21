@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     font-family: Arial, sans-serif;
@@ -13,7 +12,7 @@ body{
     margin: auto;
 }
 
-/* title */
+
 h1{
     margin-bottom: 10px;
     font-size: 2rem;
@@ -48,8 +47,7 @@ h1{
     line-height: 1.6;      
 }
 
-
-/* buttons */
+/* buttons container */
 .buttons{
     margin-top: 30px;
     display: flex;
@@ -58,6 +56,7 @@ h1{
     flex-wrap: wrap;
 }
 
+/*  button style */
 button{
     padding: 12px 18px;
     border: none;
@@ -66,12 +65,12 @@ button{
     background: #1f2937;
     color: white;
     font-size: 1rem;       
+    transition: 0.3s;
 }
 
 button:hover{
     background: #334155;
 }
-
 
 /* footer */
 .footer{
@@ -79,7 +78,6 @@ button:hover{
     opacity: 0.7;
     font-size: 0.95rem;
 }
-
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 600px){
@@ -96,15 +94,19 @@ button:hover{
         font-size: 18px;
     }
 
-    button{
-        width: 100%;     /* buttons full width on mobile */
-        max-width: 250px;
+  
+    .buttons{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
     }
 
-    .buttons{
-        gap: 10px;
+    /* makes buttons balanced */
+    button{
+        flex: 1 1 120px;
+        max-width: 140px;
+        height: 48px;
+        font-size: 14px;
     }
 }
-
-
-

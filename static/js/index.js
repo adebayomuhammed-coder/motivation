@@ -1,11 +1,19 @@
-let button = document.getElementById("copy-btn");
+const copyBtn = document.getElementById("copy-btn");
 
-button.addEventListener("click", function() {
+copyBtn.addEventListener("click", () => {
+    const text = document.getElementById("quote").innerText;
 
-    let text = document.getElementById("quote").innerText;
+    navigator.clipboard.writeText(text).then(() => {
 
-    navigator.clipboard.writeText(text);
+        // change text
+        copyBtn.innerText = "Copied ✓";
+        copyBtn.style.background = "#16a34a";
 
-    alert("Copied!");
+        // reset after 2 seconds
+        setTimeout(() => {
+            copyBtn.innerText = "Copy";
+            copyBtn.style.background = "#1f2937";
+        }, 2000);
 
+    });
 });
