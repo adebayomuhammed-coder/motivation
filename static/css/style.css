@@ -1,112 +1,147 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
     font-family: Arial, sans-serif;
-    background: #0f172a;
+    min-height: 100vh;
+    background: url("../image/quotebackground.jpeg") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
     color: white;
+    position: relative;
 }
 
+/* dark overlay for readability */
+body::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+/* main container */
 .app{
+    position: relative;
     text-align: center;
-    padding: 40px 20px;
-    max-width: 900px;
-    margin: auto;
+    max-width: 600px;
+    width: 100%;
+    z-index: 1;
 }
 
-
+/* title */
 h1{
+    font-size: 2.2rem;
     margin-bottom: 10px;
-    font-size: 2rem;
 }
 
 .subtitle{
-    opacity: 0.7;
-    margin-bottom: 30px;
+    opacity: 0.8;
+    margin-bottom: 25px;
     font-size: 1rem;
 }
 
-/* quote card */
+/* quote card (glass effect) */
 .quote-card{
-    width: 90%;             
-    max-width: 400px;        
-    margin: auto;
-    padding: 40px 25px;      
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+
+    padding: 35px 25px;
     border-radius: 20px;
-    background: linear-gradient(135deg, #1e293b, #0f766e);
-    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
-    position: relative;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 .quote-icon{
     font-size: 40px;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .quote-card h2{
     margin-top: 20px;
     font-size: 22px;
-    line-height: 1.6;      
+    line-height: 1.6;
 }
 
 /* buttons container */
 .buttons{
-    margin-top: 30px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
     flex-wrap: wrap;
 }
 
-/*  button style */
+/* links remove underline */
+.btn-link{
+    text-decoration: none;
+}
+
+/* buttons */
 button{
-    padding: 12px 18px;
+    width: 160px;
+    height: 50px;
+
     border: none;
     border-radius: 12px;
+
     cursor: pointer;
     background: #1f2937;
     color: white;
-    font-size: 1rem;       
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    white-space: nowrap;
     transition: 0.3s;
 }
 
 button:hover{
     background: #334155;
+    transform: scale(1.05);
 }
 
 /* footer */
 .footer{
-    margin-top: 30px;
+    margin-top: 25px;
+    font-size: 0.9rem;
     opacity: 0.7;
-    font-size: 0.95rem;
 }
 
-/* MOBILE RESPONSIVE */
+/* MOBILE */
 @media (max-width: 600px){
 
     h1{
-        font-size: 1.6rem;
+        font-size: 1.7rem;
     }
 
     .quote-card{
-        padding: 30px 20px;
+        padding: 25px 18px;
     }
 
     .quote-card h2{
         font-size: 18px;
     }
 
-  
     .buttons{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
+        gap: 10px;
     }
 
-    /* makes buttons balanced */
     button{
-        flex: 1 1 120px;
-        max-width: 140px;
-        height: 48px;
+        width: 45%;
+        min-width: 140px;
+        height: 50px;
         font-size: 14px;
     }
 }

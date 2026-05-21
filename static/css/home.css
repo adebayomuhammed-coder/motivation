@@ -49,7 +49,6 @@ p{
     opacity: 0.9;
 }
 
-
 /* buttons container */
 .index-btn{
     display: flex;
@@ -60,30 +59,41 @@ p{
     gap: 20px;
 }
 
-/* big button */
-.big-btn{
-    width: 300px;
-    height: 55px;
-    font-size: 22px;
+/* shared button styles */
+.index-btn a,
+.index-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    cursor: pointer;
+
     border-radius: 12px;
     border: none;
+
+    transition: 0.3s;
+    white-space: nowrap;
+
+    padding: 0 25px;
+}
+
+/* big button */
+.big-btn{
+    min-width: 260px;
+    height: 55px;
+    font-size: 20px;
     background: #7b2ff7;
     color: aliceblue;
-    cursor: pointer;
-    transition: 0.3s;
 }
 
 /* small button */
 .small-btn{
-    width: 180px;
+    min-width: 180px;
     height: 50px;
-    font-size: 20px;
-    border-radius: 12px;
-    border: none;
+    font-size: 18px;
     background: #3a86ff;
     color: white;
-    cursor: pointer;
-    transition: 0.3s;
 }
 
 /* hover */
@@ -91,7 +101,6 @@ button:hover{
     background: #334155;
     transform: scale(1.05);
 }
-
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 600px){
@@ -111,19 +120,12 @@ button:hover{
         gap: 18px;
     }
 
-    /* BIG BUTTON (mobile) */
-    .big-btn{
-        width: 90%;
-        max-width: 420px;
-        height: 60px;
-        font-size: 22px;
-    }
-
-    /* SMALL BUTTON (mobile) */
+    .big-btn,
     .small-btn{
-        width: 75%;
-        max-width: 320px;
+        width: 90%;
+        max-width: 350px;
         height: 55px;
-        font-size: 20px;
+        font-size: 18px;
+        padding: 0 20px;
     }
 }
